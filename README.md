@@ -30,6 +30,6 @@ python3 -m http.server
 # Build and run command
 
 ```bash
-# makefileにも定義しているのでmake runで実行可能
+# Run app with make run (Makefile configured).
 wasm-pack build --target web && python3 -m http.server
 ```
